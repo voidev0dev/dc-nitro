@@ -1,6 +1,6 @@
-requests
-threading
-bs4
-string
-random
-colorama
+requests~=2.23.3
+threading~=3.7
+bs4~=4.12.3
+string~=3.7
+random~=3.2
+colorama~=0.4.6
