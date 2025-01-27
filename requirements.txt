@@ -1,0 +1,6 @@
+requests
+threading
+bs4
+string
+random
+colorama
