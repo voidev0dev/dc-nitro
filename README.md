@@ -1,2 +1,6 @@
-# Needs much time, literally idk how much exactly
-handler.py are starting the nitrogenerator.py file
+# TERMUX
+```
+pkg install python
+pkg update
+pkg upgrade
+```
