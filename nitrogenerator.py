@@ -27,9 +27,13 @@ def main(e=None):
             print(f"Error {e}")
             return None
 
-        time.sleep(5)
-        soup = BeautifulSoup(html_content, 'html.parser')
-        div = soup.find('div')
+        try:
+            time.sleep(5)
+            soup = BeautifulSoup(html_content, 'html.parser')
+            div = soup.find('div')
+            
+        except Exception as e:
+            print(e)
         
         return div
     
