@@ -28,7 +28,7 @@ def main(e=None):
             return None
 
         try:
-            time.sleep(5)
+            time.sleep(3)
             soup = BeautifulSoup(html_content, 'html.parser')
             div = soup.find('div')
             
@@ -39,7 +39,7 @@ def main(e=None):
     
     while True:
         random_text = generate_random_string(random.randint(23, 25))
-        print(random_text)
+        print(f"\n{random_text}")
             
         url = "https://promos.discord.gg/" + random_text
         class_name = "errorBody_e75adc"
@@ -50,7 +50,7 @@ def main(e=None):
             pass
             
         else:
-            print(f"{Fore.GREEN}{url}")
+            print(f"\n{Fore.GREEN}{url}")
             break
     
     
